@@ -1,0 +1,31 @@
+@import "~bootstrap/scss/bootstrap";
+
+$green: #4AC0A4;
+$gold: #BC2D5F;
+$grey: #333333;
+
+@mixin font {
+	font-family: Helvetica;
+}
+
+@mixin border-radius {
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.container {
+	@include font;
+	
+	.row {
+		padding: 20px;
+		margin: 20px; 
+	}
+	.title {
+		color: $grey;
+		text-align: center;
+		margin: 20px; 
+	}
+	.entry {
+		box-shadow: 2px 2px 5px 1px $grey; 
+	}
+}
