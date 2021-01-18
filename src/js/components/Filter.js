@@ -11,7 +11,7 @@ class Filter extends React.Component
 			<div className="row" id="filters">
 				<form className="form-inline">
 					<div className="form-group">
-						<label for="sort">Sắp xếp theo: </label>
+						<label for="sort">Sắp xếp theo</label>
 						<select className="form-control" onChange={this.props.loadEntries} id="sort">
 							<option value="distance">Khoảng cách</option>
 							<option value="rating">Đánh giá</option>
@@ -19,7 +19,7 @@ class Filter extends React.Component
 					</div>
 
 					<div className="form-group">
-						<label for="filter">Lọc kết quả: </label>
+						<label for="filter">Lọc kết quả</label>
 						<select className="form-control" onChange={this.props.loadEntries} id="filter">
 							<option value="vi">Tiếng Việt</option>
 							<option value="en">English</option>

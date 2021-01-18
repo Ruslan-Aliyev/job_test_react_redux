@@ -28,4 +28,11 @@ $grey: #333333;
 	.entry {
 		box-shadow: 2px 2px 5px 1px $grey; 
 	}
+
+	select {
+		@include border-radius;
+		margin: 10px;
+		color: white;
+		background-color: $green;
+	}
 }
